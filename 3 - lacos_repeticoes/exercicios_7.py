@@ -8,3 +8,4 @@ else:
     print(f"{numero} é Par")
 
 print("FIM")
+
