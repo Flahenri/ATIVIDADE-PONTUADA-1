@@ -6,10 +6,8 @@ def limpar_tela():
 qtd_pessoas = 0
 soma_salario = 0.0
 qtd_mulheres_salario_alto = 0
-
 maior_idade = None
 menor_idade = None
-
 limpar_tela()
 
 while True:
@@ -64,8 +62,7 @@ while True:
         if sexo == "F" and salario >= 5000.0:
             qtd_mulheres_salario_alto += 1
 
-        limpar_tela()
-        print(">> Pessoa adicionada com sucesso!\n")
+        print("\n>> Pessoa adicionada com sucesso!\n")
 
     elif opcao == "2":
         limpar_tela()
