@@ -7,7 +7,7 @@ while True:
     os.system("cls")
     print("=== Conhecimentos ===")
     print("1 - Listar Série,")
-    print("2 - Listrar Série.")
+    print("2 - Série Favorita.")
     print("3 - Sair.")
     print()
     try:
